@@ -27,6 +27,8 @@
 .form-elements {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 100%;
 }
 .header{
     display: flex;
@@ -51,13 +53,13 @@ input[type='text'], input[type='email'], select, textarea{
 input[type='button'] {
     border: none;
     height: 40px;
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
     background-image: linear-gradient(to right, rgb(209, 3, 209), rgb(110, 1, 188), rgb(77, 77, 255));
     color: aliceblue;
 }
 textarea {
-    height: 100px;
+    height: 120px;
 }
 textarea:focus, input[type='text']:focus{
     background-color: rgb(222, 222, 222);
