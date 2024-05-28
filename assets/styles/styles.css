@@ -5,7 +5,7 @@
 }
 
 .container {
-    height: 100vh;
+    height: 100vmax;
     width: 100%;
     background-image: linear-gradient(45deg, blue, indigo, purple);
     display: flex;
