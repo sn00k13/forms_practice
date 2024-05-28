@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, blue, indigo, purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formarea {
+    height: 650px;
+    width: 50%;    
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;    
+    padding: 20px;    
+    gap: 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type='text'], input[type='email'], select, textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+    width: 95%;
+    margin: 20px 0;
+    font-size: 14px;
+    padding: 5px;
+    opacity: .7;
+}
+
+
+input[type='button'] {
+    border: none;
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(209, 3, 209), rgb(110, 1, 188), rgb(77, 77, 255));
+}
+textarea {
+    height: 100px;
+}
+textarea:focus, input[type='text']:focus{
+    background-color: rgb(222, 222, 222);
+    outline: none;
+}
+label{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+select{
+    font-weight: 600;
+}
