@@ -19,7 +19,8 @@
     box-shadow: 10px 10px 10px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    justify-content: center;  
     padding: 20px;    
     gap: 15px;
 }
