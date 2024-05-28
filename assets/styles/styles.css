@@ -31,8 +31,8 @@
 .header{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input[type='text'], input[type='email'], select, textarea{
